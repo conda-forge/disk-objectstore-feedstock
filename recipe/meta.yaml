@@ -1,5 +1,5 @@
 {% set name = "disk-objectstore" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name|replace('-','_') }}-{{ version }}.tar.gz
-  sha256: 9216e973586f635b05e121a2ab90d72989b8eb64ed08f5aaae5092cabbe26e9b
+  sha256: 10962b36469bb1e1ad2647876f73fa57941a3b81a07295b2f801a996d27f403d
 
 build:
   number: 0
