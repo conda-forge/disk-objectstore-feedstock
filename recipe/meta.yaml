@@ -1,5 +1,6 @@
 {% set name = "disk-objectstore" %}
 {% set version = "1.5.0" %}
+{% set python_min = "3.9" %}
 
 package:
   name: {{ name|lower }}
@@ -10,7 +11,7 @@ source:
   sha256: 1327843630dfec5956c5c92b14001e75aaf12f3014f98fd71e8ab896f1546e2e
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - dostore = disk_objectstore.cli:main
   noarch: python
